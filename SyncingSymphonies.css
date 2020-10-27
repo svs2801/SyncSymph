@@ -1,0 +1,306 @@
+header
+{
+	background: rgba(0,0,0,0.4);	
+	background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSBbpaM9YcTuz1qLBwRRWCqs6zCHUfV1wvaxg&usqp=CAU");
+	height:220px;
+	
+	
+}
+
+h1
+{
+	font-size:250%;
+	font-family:cursive;
+	text-align:center;
+	color:#FAEBD7;
+	text-shadow:
+		-2px -1px 0 #DC143C,
+		2px -1px 0 #DC143C,
+		-2px 1px 0 #DC143C,
+		2px 1px 0 #DC143C;
+	
+	
+}	
+
+nav a
+ 
+
+{
+
+	display: inline-block;
+	font-weight: bold;
+	color: #000000;
+	background:#0006CC;
+	width: 120px;
+	
+	text-align: center;
+	padding:10px;
+	text-decoration: none;
+	border-radius: 10px;
+	margin-bottom: 3%;
+	margin-left:9%;
+	margin-right:5%;
+
+	
+	background: rgba(184, 134, 11,1);
+	
+}
+
+
+section.left{
+  background:#B22222;
+  width:20%;
+  height:500%;
+  float:left;
+  padding:1px;
+  margin-right: 1%;
+  border:#800000 2px solid;
+}
+
+.left img{
+  display: block;
+  margin: 16% auto;
+  width: 70%;
+
+  border: #000 solid 5px;
+}
+
+.right{
+  float: left;
+  width: 70%;
+  margin: 0 10px;
+}
+
+
+.right p
+{
+	font-family: ""Times New Roman"";
+	font-size: 150%;
+	color: #FFFFFF;
+	margin:1%;
+	
+	
+}
+
+#part1
+{
+	transition-property: color;	
+	transition-duration: .5s;
+	transition-timing-function: linear;
+	transition-delay:.5s;
+}
+
+#part2
+{
+	transition-property: color;	
+	transition-duration: .5s;
+	transition-timing-function: linear;
+	transition-delay:.5s;
+}
+
+#part3
+{
+	transition-property: color;	
+	transition-duration: .5s;
+	transition-timing-function: linear;
+	transition-delay:.5s;
+}
+
+
+#part1:hover
+{
+	color:firebrick;
+}
+
+#part2:hover
+{
+	color:firebrick;
+}
+
+#part3:hover
+{
+	color:firebrick;
+}
+
+.right div
+{
+	display: inline-block;
+	width:28%;
+	margin:1%;
+	
+}
+
+#left
+{
+	margin-left:25%;
+	font-family: cursive;
+	font-size:110%;
+	color:#800000;
+}
+
+#center
+{
+	margin-left:12%;
+	font-family: cursive;
+	font-size:110%;
+	color:#800000;
+
+}
+
+
+#right
+{
+	margin-left:28%;
+	font-family: cursive;
+	font-size:110%;
+	color:#800000;
+
+}
+
+body.home
+{
+	margin:1%;
+	padding:1%;
+	background:rgba(1,1,1,1);
+	
+}
+
+a.active
+{
+	background: firebrick;
+	color:mistyrose;
+}
+
+section.rightpane{
+  background:#B22222;
+  width:20%;
+  height:500%;
+  float:right;
+  padding:1px;
+  border:#800000 2px solid;
+}
+
+
+.rightpane img{
+  display: inline- block;
+  margin: 4.6% auto;
+  width: 45%;
+
+  border: #000 solid 5px;
+}
+
+.center p
+{
+	margin-left:2%;
+
+	font-size: 150%;
+	font-family:"Times New Roman";
+	color:#191970;
+	
+}
+
+.bottom
+{
+
+ text-align:center;
+  width: 100%;
+  margin: 0 20px;
+  margin-top:200px;
+  font-family: cursive;
+  color:#800000;
+}
+
+.bottom div
+{
+	display:inline-block;
+	
+
+}
+
+body.BTS
+{
+	background: #E6E6FA;
+	background: -moz-linear-gradient(top,#E6E6FA);
+	background: -webkit-linear-gradient(#E6E6FA 0%,#FFB6C1);
+	background: -0-linear-gradient(#E6E6FA 0%,#FFB6C1);
+	background: linear-gradient(#E6E6FA 0%,#FFB6C1);
+	margin:2%;
+}
+
+body.Blackpink
+{
+	background: #000000;
+	background: -moz-linear-gradient(top,#000000);
+	background: -webkit-linear-gradient(#000000 0%,#FFB6C1);
+	background: -0-linear-gradient(#000000 0%,#FFB6C1);
+	background: linear-gradient(#000000 0%,#FFB6C1);
+	margin:2%;
+}
+
+section.rightpanebp{
+  background:#B22222;
+  width:20%;
+  height:500%;
+  float:right;
+  padding:1px;
+  border:#800000 2px solid;
+}
+
+
+.rightpanebp img{
+  display: block;
+  margin: 17% auto;
+  width: 50%;
+
+
+  border: #000 solid 5px;
+}
+
+.centerbp p
+{
+	margin-left:2%;
+
+	font-size: 150%;
+	font-family:"Times New Roman";
+	color:#FFFFFF;
+	
+}
+body.Exo
+{
+	background: #F0E68C;
+	background: -moz-linear-gradient(top,#F0E68C);
+	background: -webkit-linear-gradient(#F0E68C 0%,#90EE90);
+	background: -0-linear-gradient(#F0E68C 0%,#90EE90);
+	background: linear-gradient(#F0E68C 0%,#90EE90);
+	margin:2%;
+}
+
+.centerexo p
+{
+	margin-left:2%;
+
+	font-size: 150%;
+	font-family:"Times New Roman";
+	color:#808000;
+	
+}
+
+
+section.rightpaneexo{
+  background:#B22222;
+  width:20%;
+  height:500%;
+  float:right;
+  padding:1px;
+  border:#800000 2px solid;
+}
+
+.rightpaneexo img{
+  display: inline- block;
+  margin: 2.5% auto;
+  width: 45%;
+
+
+  border: #000 solid 5px;
+}
+
